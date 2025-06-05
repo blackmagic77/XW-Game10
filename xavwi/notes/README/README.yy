@@ -3,8 +3,8 @@
   "%Name":"README",
   "name":"README",
   "parent":{
-    "name":"xavwi",
-    "path":"xavwi.yyp",
+    "name":"lesgo111",
+    "path":"lesgo111.yyp",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",
