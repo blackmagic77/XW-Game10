@@ -38,6 +38,7 @@
   "resources":[
     {"id":{"name":"README","path":"notes/README/README.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"panjeet","path":"sprites/panjeet/panjeet.yy",},},
     {"id":{"name":"spr_asphalt","path":"sprites/spr_asphalt/spr_asphalt.yy",},},
     {"id":{"name":"spr_blue_car","path":"sprites/spr_blue_car/spr_blue_car.yy",},},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
