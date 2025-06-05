@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -37,6 +37,8 @@
   "name":"xavwi",
   "resources":[
     {"id":{"name":"README","path":"notes/README/README.yy",},},
+    {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"panjeet","path":"sprites/panjeet/panjeet.yy",},},
     {"id":{"name":"spr_asphalt","path":"sprites/spr_asphalt/spr_asphalt.yy",},},
@@ -50,6 +52,7 @@
     {"id":{"name":"spr_shadow","path":"sprites/spr_shadow/spr_shadow.yy",},},
     {"id":{"name":"spr_talk","path":"sprites/spr_talk/spr_talk.yy",},},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
