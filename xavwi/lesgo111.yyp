@@ -50,6 +50,7 @@
     {"id":{"name":"spr_ability1","path":"sprites/spr_ability1/spr_ability1.yy",},},
     {"id":{"name":"spr_ability2","path":"sprites/spr_ability2/spr_ability2.yy",},},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
+    {"id":{"name":"spr_bush","path":"sprites/spr_bush/spr_bush.yy",},},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},},
     {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},},
