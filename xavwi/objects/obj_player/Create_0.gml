@@ -5,5 +5,6 @@ tilemap = layer_tilemap_get_id("walls");
 hp = 10;
 hp_total = hp;
 damage = 1;
+keys = 0;
 
 facing = 0;
