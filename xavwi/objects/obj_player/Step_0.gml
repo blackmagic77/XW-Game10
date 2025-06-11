@@ -19,3 +19,10 @@ else
     else if (sprite_index == spr_player_walk_left) sprite_index = spr_player_idle_left;
     else if (sprite_index == spr_player_walk_down) sprite_index = spr_player_idle_down;        
 }
+
+if (keyboard_check_pressed(vk_space))
+{
+    var _inst = instance_create_depth(x, y, depth, obj_attack);
+    _inst.image_angle = facing;
+    _inst.damage *= damage;
+}
