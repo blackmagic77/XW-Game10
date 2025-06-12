@@ -9,6 +9,5 @@ var _ver = clamp(target_y - y, -2, 2);
 
 move_and_collide(_hor * move_speed,_ver * move_speed, [tilemap, obj_enemy_parent]);
 
-if (money_drop == 1) {
-    instance_create_depth(x, y, 100)
-}
+
+
