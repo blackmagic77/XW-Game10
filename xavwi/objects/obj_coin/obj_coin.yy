@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spikey",
+  "%Name":"obj_coin",
   "eventList":[],
   "managed":true,
-  "name":"obj_spikey",
+  "name":"obj_coin",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_enemy_parent",
-    "path":"objects/obj_enemy_parent/obj_enemy_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_enemy1_1",
-    "path":"sprites/spr_enemy1_1/spr_enemy1_1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
