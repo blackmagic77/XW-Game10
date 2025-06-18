@@ -34,6 +34,9 @@
     "name":"spr_bat",
     "path":"sprites/spr_bat/spr_bat.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_enemy1_2",
+    "path":"sprites/spr_enemy1_2/spr_enemy1_2.yy",
+  },
   "visible":true,
 }
