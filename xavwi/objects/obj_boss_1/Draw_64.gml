@@ -1,10 +1,5 @@
-draw_text(32,32,keys);
-draw_text(32,47, money);
-draw_text(32,62, hp);
-
-
 var _dx = 400;
-var _dy = 660;
+var _dy = 60;
 var _barw = 512;
 var _barh = 32;
 
