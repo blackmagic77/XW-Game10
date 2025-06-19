@@ -26,9 +26,13 @@ else
     else if (sprite_index == spr_player_walk_down) sprite_index = spr_player_idle_down;        
 }
 
-if (keyboard_check_pressed(vk_space))
+if (keyboard_check_pressed(vk_space) && water_boots == 0)
 {
     var _inst = instance_create_depth(x, y, depth, obj_attack);
+    _inst.image_angle = facing;
+    _inst.damage *= damage;
+} else if (keyboard_check_pressed(vk_space) && water_boots == 1) {
+	 var _inst = instance_create_depth(x, y, depth, obj_attack_1);
     _inst.image_angle = facing;
     _inst.damage *= damage;
 }
