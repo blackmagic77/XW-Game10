@@ -1,11 +1,11 @@
 draw_text(32,32,keys);
 draw_text(32,47, money);
-draw_text(32,62, hp);
+draw_text(32,62, facing);
 
 
-var _dx = 400;
-var _dy = 660;
-var _barw = 512;
+var _dx = 50;
+var _dy = 30;
+var _barw = 256;
 var _barh = 32;
 
 draw_set_font(Font1);

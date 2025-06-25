@@ -1,4 +1,4 @@
-move_speed = 2;
+move_speed = 1.5;
 
 tilemap = layer_tilemap_get_id("walls");
 tilemap2 = layer_tilemap_get_id("water");
@@ -10,5 +10,6 @@ damage = 1;
 keys = 0;
 money = 0;
 water_boots = 0;
+bow = 0;
 
 facing = 0;
