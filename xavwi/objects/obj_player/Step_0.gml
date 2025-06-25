@@ -3,9 +3,9 @@ var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 
     if (water_boots == 1){
-    move_and_collide(_hor * move_speed, _ver * move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
+    move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap3], undefined, undefined, undefined, move_speed, move_speed);
     } else {
-    	move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap2], undefined, undefined, undefined, move_speed, move_speed);
+    	move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap2, tilemap3], undefined, undefined, undefined, move_speed, move_speed);
     }
 
 

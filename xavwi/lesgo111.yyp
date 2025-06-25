@@ -62,6 +62,7 @@
     {"id":{"name":"Drawing","path":"scripts/Drawing/Drawing.yy",},},
     {"id":{"name":"spr_ability1","path":"sprites/spr_ability1/spr_ability1.yy",},},
     {"id":{"name":"spr_ability2","path":"sprites/spr_ability2/spr_ability2.yy",},},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_bat","path":"sprites/spr_bat/spr_bat.yy",},},
     {"id":{"name":"spr_boots","path":"sprites/spr_boots/spr_boots.yy",},},
     {"id":{"name":"spr_boss_1","path":"sprites/spr_boss_1/spr_boss_1.yy",},},
