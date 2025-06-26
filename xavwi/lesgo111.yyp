@@ -40,6 +40,7 @@
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"README","path":"notes/README/README.yy",},},
+    {"id":{"name":"obj_arrow_pickup","path":"objects/obj_arrow_pickup/obj_arrow_pickup.yy",},},
     {"id":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},},
     {"id":{"name":"obj_attack_1","path":"objects/obj_attack_1/obj_attack_1.yy",},},
     {"id":{"name":"obj_attack","path":"objects/obj_attack/obj_attack.yy",},},
@@ -58,6 +59,7 @@
     {"id":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_shop","path":"objects/obj_shop/obj_shop.yy",},},
+    {"id":{"name":"obj_sign_parent","path":"objects/obj_sign_parent/obj_sign_parent.yy",},},
     {"id":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},},
     {"id":{"name":"obj_skeleton","path":"objects/obj_skeleton/obj_skeleton.yy",},},
     {"id":{"name":"obj_spikey","path":"objects/obj_spikey/obj_spikey.yy",},},
@@ -68,6 +70,7 @@
     {"id":{"name":"Drawing","path":"scripts/Drawing/Drawing.yy",},},
     {"id":{"name":"spr_ability1","path":"sprites/spr_ability1/spr_ability1.yy",},},
     {"id":{"name":"spr_ability2","path":"sprites/spr_ability2/spr_ability2.yy",},},
+    {"id":{"name":"spr_arrow_pickup","path":"sprites/spr_arrow_pickup/spr_arrow_pickup.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_baseball_bat","path":"sprites/spr_baseball_bat/spr_baseball_bat.yy",},},
