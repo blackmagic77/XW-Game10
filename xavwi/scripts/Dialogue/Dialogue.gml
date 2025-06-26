@@ -1,5 +1,4 @@
 function create_dialogue(_messages){
-function create_dialogue(_messages){
     if (instance_exists(obj_dialog)) return;
         
     var _inst = instance_create_depth(0, 0, 0, obj_dialog);
@@ -39,4 +38,3 @@ welcome_dialog = [
     msg: "Can you make it to the end?"
 },
 ]
-}
