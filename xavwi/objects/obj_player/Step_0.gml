@@ -38,12 +38,13 @@ if (keyboard_check_pressed(vk_space) && alarm[10] < 0 && water_boots == 0)
     _inst.damage *= damage;
     alarm[10] = 8;
 }
-if (keyboard_check_pressed(ord("M"))) 
+if (keyboard_check_pressed(ord("M")) && bow == 1 && arrows >= 1 && alarm[10] < 0) 
 {
-    var _inst = instance_create_depth(x, y, depth, obj_arrow)
+    var _inst = instance_create_depth(x, y, depth, obj_arrow);
     _inst.image_angle = facing;
     _inst.direction = facing;
-    
+    arrows -= 1;
+    alarm[10] = 16;
 }
     
     
