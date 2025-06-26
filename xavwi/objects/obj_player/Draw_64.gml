@@ -1,7 +1,6 @@
 draw_text(32,32,keys);
 draw_text(32,47, money);
 draw_text(32,62, facing);
-draw_sprite_ext(spr_arrow,1,32,96,6,6,90,c_white,1)
 
 
 var _dx = 50;
@@ -18,4 +17,4 @@ var _health_barw = _barw * (hp / hp_total);
 draw_sprite_stretched(spr_box, 0 , _dx, _dy, _barw, _barh);
 draw_sprite_stretched_ext(spr_box, 1, _dx, _dy, _health_barw, _barh, c_red, 0.6);
  
-draw_text(_dx + _barw / 2, _dy + _barh / 2, string(hp) + " / " + string(hp_total));
+draw_text(_dx + _barw / 2, _dy + _barh / 2, "Health");
