@@ -1,2 +1,2 @@
-input_key = ord("F");
-can_read = 0;
+input_key = vk_space;
+can_talk = false;

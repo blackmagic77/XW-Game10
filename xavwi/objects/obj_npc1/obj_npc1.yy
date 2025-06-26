@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sign",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_npc1",
+  "eventList":[],
   "managed":true,
-  "name":"obj_sign",
+  "name":"obj_npc1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
