@@ -1,11 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bow",
+  "%Name":"obj_arrow_pickup",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bow",
+  "name":"obj_arrow_pickup",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bow",
-    "path":"sprites/spr_bow/spr_bow.yy",
+    "name":"spr_arrow_pickup",
+    "path":"sprites/spr_arrow_pickup/spr_arrow_pickup.yy",
   },
   "spriteMaskId":null,
   "visible":true,
