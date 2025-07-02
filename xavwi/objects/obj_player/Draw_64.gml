@@ -1,4 +1,5 @@
 draw_sprite_ext(spr_arrow_pickup, 1, 18, 96, 5,5,0,c_white,1);
+draw_sprite_ext(spr_health_potion, 1, 18, 123, 5,5,0,c_white,1);
 
 draw_text(32,32,keys);
 draw_text(32,47, global.money);
