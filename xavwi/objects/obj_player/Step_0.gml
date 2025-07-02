@@ -47,9 +47,3 @@ if (keyboard_check_pressed(ord("M")))
     _inst.direction = facing;
     
 }
-    
-    if (room = Room1 && croom == 1) {
-        croom = 0;
-        obj_player.x = roomx;
-        obj_player.y = roomy;
-    }
