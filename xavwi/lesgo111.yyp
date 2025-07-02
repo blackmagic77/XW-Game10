@@ -71,6 +71,7 @@
     {"id":{"name":"spr_ability2","path":"sprites/spr_ability2/spr_ability2.yy",},},
     {"id":{"name":"spr_arrow_pickup","path":"sprites/spr_arrow_pickup/spr_arrow_pickup.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
+    {"id":{"name":"spr_backgg","path":"sprites/spr_backgg/spr_backgg.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_baseball_bat","path":"sprites/spr_baseball_bat/spr_baseball_bat.yy",},},
     {"id":{"name":"spr_bat","path":"sprites/spr_bat/spr_bat.yy",},},
