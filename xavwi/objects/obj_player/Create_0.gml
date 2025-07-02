@@ -8,7 +8,8 @@ hp = 100;
 hp_total = hp;
 damage = 1;
 keys = 0;
-money = 0;
+global.money = 0;
+global.inv = ds_list_create();
 water_boots = 0;
 sword2 = 0;
 bow = 0;
@@ -16,6 +17,5 @@ bow = 0;
 roomx = 0;
 roomy = 0;
 croom = 0;
-
 
 facing = 0;
