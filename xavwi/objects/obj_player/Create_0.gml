@@ -12,4 +12,9 @@ money = 0;
 water_boots = 0;
 bow = 0;
 
+roomx = 0;
+roomy = 0;
+croom = 0;
+
+
 facing = 0;

@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc1",
+  "%Name":"obj_door_1",
   "eventList":[],
   "managed":true,
-  "name":"obj_npc1",
+  "name":"obj_door_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_sign_parent",
-    "path":"objects/obj_sign_parent/obj_sign_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sign",
-    "path":"sprites/spr_sign/spr_sign.yy",
+    "name":"spr_door",
+    "path":"sprites/spr_door/spr_door.yy",
   },
   "spriteMaskId":null,
   "visible":true,

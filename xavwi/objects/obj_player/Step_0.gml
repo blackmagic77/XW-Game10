@@ -1,11 +1,13 @@
+
+
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 
     if (water_boots == 1){
-    move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap3, obj_sign_parent], undefined, undefined, undefined, move_speed, move_speed);
+    move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap3], undefined, undefined, undefined, move_speed, move_speed);
     } else {
-    	move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap2, tilemap3, obj_sign_parent], undefined, undefined, undefined, move_speed, move_speed);
+    	move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap2, tilemap3], undefined, undefined, undefined, move_speed, move_speed);
     }
 
 
@@ -46,4 +48,8 @@ if (keyboard_check_pressed(ord("M")))
     
 }
     
-    
+    if (room = Room1 && croom == 1) {
+        croom = 0;
+        obj_player.x = roomx;
+        obj_player.y = roomy;
+    }
