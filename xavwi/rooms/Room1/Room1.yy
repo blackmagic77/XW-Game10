@@ -17,6 +17,7 @@
     {"name":"inst_619CE806","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_79A2FE3A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_29E80129","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_3847848A","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -32,6 +33,7 @@
         {"$GMRInstance":"v2","%Name":"inst_619CE806","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_619CE806","objectId":{"name":"obj_bat_spawner","path":"objects/obj_bat_spawner/obj_bat_spawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":418.0,"y":933.0,},
         {"$GMRInstance":"v2","%Name":"inst_79A2FE3A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_79A2FE3A","objectId":{"name":"obj_sword2","path":"objects/obj_sword2/obj_sword2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":697.0,"y":796.0,},
         {"$GMRInstance":"v2","%Name":"inst_29E80129","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_29E80129","objectId":{"name":"obj_boss_1","path":"objects/obj_boss_1/obj_boss_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":730.0,"y":752.0,},
+        {"$GMRInstance":"v2","%Name":"inst_3847848A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3847848A","objectId":{"name":"obj_shop","path":"objects/obj_shop/obj_shop.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":424.0,"y":1029.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"dungeonwalls","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"dungeonwalls","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":160,"SerialiseWidth":320,"TileCompressedData":[
           -294,-2147483648,-26,2,-294,-2147483648,1,2,-24,-2147483648,1,2,-294,-2147483648,1,2,-24,-2147483648,
