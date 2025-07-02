@@ -10,6 +10,7 @@ damage = 1;
 keys = 0;
 money = 0;
 water_boots = 0;
+sword2 = 0;
 bow = 0;
 
 roomx = 0;

@@ -3,6 +3,7 @@ image_blend = c_white;
 if (hp <= 0) 
 {
     var humbaba = irandom_range(1,4)
+    respawn = 1;
     
     if (humbaba == 1) {
     instance_create_layer(x + random_range(-30,30), y + random_range(-30,30), "Instances", obj_coin_1);
