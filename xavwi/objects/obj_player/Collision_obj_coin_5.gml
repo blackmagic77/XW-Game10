@@ -1,1 +1,1 @@
-money += 5;
+global.money += 5;

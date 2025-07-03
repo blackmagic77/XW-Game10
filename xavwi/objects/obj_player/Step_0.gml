@@ -2,6 +2,11 @@ if (global.shop) exit;
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
+if (hp > hp_total)
+{
+    hp = hp_total;
+}
+
 
     if (water_boots == 1){
     move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap3], undefined, undefined, undefined, move_speed, move_speed);
@@ -46,3 +51,10 @@ if (keyboard_check_pressed(ord("M")))
     _inst.direction = facing;
     
 }
+
+if ( potions >= 1 && keyboard_check_pressed(ord("E")))
+{
+    hp += 50;
+    potions -= 1;
+}
+

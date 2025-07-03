@@ -13,6 +13,8 @@ global.inv = ds_list_create();
 water_boots = 0;
 sword2 = 0;
 bow = 0;
+arrows = 0;
+potions = 0;
 
 roomx = 0;
 roomy = 0;

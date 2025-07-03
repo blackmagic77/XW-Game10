@@ -54,7 +54,7 @@
     {"id":{"name":"obj_coin_5","path":"objects/obj_coin_5/obj_coin_5.yy",},},
     {"id":{"name":"obj_door_1","path":"objects/obj_door_1/obj_door_1.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
-    {"id":{"name":"obj_exit_door","path":"objects/obj_exit_door/obj_exit_door.yy",},},
+    {"id":{"name":"obj_exit_door_1","path":"objects/obj_exit_door_1/obj_exit_door_1.yy",},},
     {"id":{"name":"obj_f","path":"objects/obj_f/obj_f.yy",},},
     {"id":{"name":"obj_grunt_spawner","path":"objects/obj_grunt_spawner/obj_grunt_spawner.yy",},},
     {"id":{"name":"obj_grunt","path":"objects/obj_grunt/obj_grunt.yy",},},

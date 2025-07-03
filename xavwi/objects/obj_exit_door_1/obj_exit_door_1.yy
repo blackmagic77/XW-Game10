@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_exit_door",
+  "%Name":"obj_exit_door_1",
   "eventList":[],
   "managed":true,
-  "name":"obj_exit_door",
+  "name":"obj_exit_door_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
