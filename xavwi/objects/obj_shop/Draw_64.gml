@@ -58,3 +58,4 @@ draw_set_valign(fa_right);
 draw_text(guiWidth-4, guiHeight-4, "Hit ENTER to  buy");
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+
