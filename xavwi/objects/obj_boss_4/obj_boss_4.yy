@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_boss_2",
-    "path":"sprites/spr_boss_2/spr_boss_2.yy",
+    "name":"spr_boss_3",
+    "path":"sprites/spr_boss_3/spr_boss_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

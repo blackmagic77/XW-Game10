@@ -6,7 +6,6 @@ else if (shopOpen && keyboard_check_pressed(vk_escape)) {
     shopOpen = false;
     global.shop = false;
 }
-
 if (shopOpen) {
     
     selectedAnim = lerp(selectedAnim, selected, 0.1);
@@ -27,8 +26,12 @@ if (shopOpen) {
         global.money -= price;
         bowBought = 1;
     }
-     if (selected = 1 &&keyboard_check_pressed(vk_enter) && global.money >= price) {
+     if (selected == 1 &&keyboard_check_pressed(vk_enter) && global.money >= price) {
         obj_player.arrows += 5;
+        global.money -= price;
+    }
+     if (selected == 2 &&keyboard_check_pressed(vk_enter) && global.money >= price) {
+        obj_player.potions += 1;
         global.money -= price;
     }
     
