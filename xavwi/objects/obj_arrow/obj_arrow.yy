@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sItem_arrow",
-    "path":"sprites/sItem_arrow/sItem_arrow.yy",
+    "name":"spr_arrow",
+    "path":"sprites/spr_arrow/spr_arrow.yy",
   },
   "spriteMaskId":null,
   "visible":true,
