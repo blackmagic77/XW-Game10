@@ -5,9 +5,9 @@ selected = 0;
 
 items = ds_list_create();
 
-ds_list_add(items, ["Bow", 10, "Get a Bow"]);
-ds_list_add(items, ["Arrows", 5, "5 Arrows"]);
-ds_list_add(items, ["Health Potion", 5, "Restores 50 hp"]);
+ds_list_add(items, ["bow", 10, "Get a Bow"]);
+ds_list_add(items, ["arrow", 5, "5 Arrows"]);
+ds_list_add(items, ["health_potion", 5, "Restores 50 hp"]);
 
 itemCount = ds_list_size(items);
 
@@ -20,5 +20,5 @@ menuMargin = guiHeight * 0.1;
 previewWidth = (guiWidth - (menuWidth+menuMargin));
 
 image_xscale = 2;
-image_yscale = 2:
+image_yscale = 2;
 
