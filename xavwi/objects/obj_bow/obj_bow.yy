@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sItem_bow",
-    "path":"sprites/sItem_bow/sItem_bow.yy",
+    "name":"spr_bow",
+    "path":"sprites/spr_bow/spr_bow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

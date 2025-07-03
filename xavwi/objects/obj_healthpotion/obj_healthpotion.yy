@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sItem_health_potion",
-    "path":"sprites/sItem_health_potion/sItem_health_potion.yy",
+    "name":"spr_health_potion",
+    "path":"sprites/spr_health_potion/spr_health_potion.yy",
   },
   "spriteMaskId":null,
   "visible":true,
