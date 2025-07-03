@@ -9,8 +9,8 @@ draw_set_alpha(1);
 draw_set_color(c_white);
 
 for(var i=0; i<itemCount; i++){
-    var aar = items[| i];
-    var item = aar[0];
+    var arr = items[| i];
+    var item = arr[0];
     
     var _x = menuMargin + menuWidth/2;
     var _y = (guiHeight/2) + (i-selectedAnim)*32;
@@ -27,10 +27,10 @@ for(var i=0; i<itemCount; i++){
     draw_set_halign(fa_left);
 }
     
-var aar = items[| selected];
-var item = aar[0];
-var price = aar[1];
-var desc = aar[2];
+var arr = items[| selected];
+var item = arr[0];
+var price = arr[1];
+var desc = arr[2];
 
 var _x = (menuMargin = menuWidth) + previewWidth/2;
 var _y = (guiHeight/2);

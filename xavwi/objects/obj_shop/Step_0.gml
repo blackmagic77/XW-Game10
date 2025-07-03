@@ -18,9 +18,9 @@ if (shopOpen) {
         selected--;
         if (selected < 0) selected = itemCount;
     }
-    var aar = items[| selected];
-    var item = aar[1];
-    var price = aar[2];
+    var arr = items[| selected];
+    var item = arr[0];
+    var price = arr[1];
     
     if (keyboard_check_pressed(vk_enter) && global.money >= price) {
         ds_list_add(global.inv, item);
