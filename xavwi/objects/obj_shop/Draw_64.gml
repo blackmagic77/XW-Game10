@@ -49,7 +49,7 @@ draw_text(_x, _y + 80, desc);
 draw_set_valign(fa_left);
 draw_set_halign(fa_left);
 
-draw_text(8, 8, "Money: " + string(global.money));
+draw_text(8, 8, "Money: " + string(selected));
 
 draw_set_valign(fa_bottom);
 draw_text(menuMargin + menuWidth + 4, guiHeight - 4, "Price: " + string(price));

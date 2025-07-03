@@ -22,9 +22,8 @@ if (shopOpen) {
     var item = arr[0];
     var price = arr[1];
     
-    if (keyboard_check_pressed(vk_enter) && global.money >= price) {
-        ds_list_add(global.inv, item);
-        
+    if (selected = 0 &&keyboard_check_pressed(vk_enter) && global.money >= price) {
+        obj_player.bow = true;
         global.money -= price;
     }
     

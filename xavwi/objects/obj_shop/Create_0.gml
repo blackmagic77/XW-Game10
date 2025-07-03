@@ -1,5 +1,6 @@
 shopOpen = false;
 global.shop = false;
+bowBought = 0;
 
 selected = 0;
 selectedAnim = 0;

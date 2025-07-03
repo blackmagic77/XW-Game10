@@ -45,7 +45,7 @@ if (keyboard_check_pressed(vk_space) && alarm[10] < 0 && sword2 == false)
     _inst.damage *= damage;
     alarm[10] = 8;
 }
-if (keyboard_check_pressed(ord("M"))) 
+if (bow = true && keyboard_check_pressed(ord("M"))) 
 {
     var _inst = instance_create_depth(x, y, depth, obj_arrow)
     _inst.image_angle = facing;
