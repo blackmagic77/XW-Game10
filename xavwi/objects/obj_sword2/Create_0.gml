@@ -1,4 +1,4 @@
-if (obj_player.sword2 == 1) 
+if (obj_player.sword2 == true) 
 {
     instance_destroy();
 }
