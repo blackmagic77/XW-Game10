@@ -10,6 +10,7 @@ hp = 100;
 hp_total = hp;
 damage = 1;
 keys = 0;
+bossKilled = 0;
 global.money = 100 ;
 global.inv = ds_list_create();
 water_boots = false;
