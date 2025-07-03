@@ -2,6 +2,7 @@ image_blend = c_white;
 
 if (hp <= 0) 
 {
+    obj_player.bossKilled += 1;
     for (var i = 0; i < 30; i++) {
     	
     
