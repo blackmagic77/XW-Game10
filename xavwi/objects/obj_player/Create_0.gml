@@ -5,6 +5,7 @@ tilemap2 = layer_tilemap_get_id("water");
 tilemap3 = layer_tilemap_get_id("lava");
 tilemap4 = layer_tilemap_get_id("dungeonwalls");
 tilemap5 = layer_tilemap_get_id("castlewalls");
+tilemap6 = layer_tilemap_get_id("hotzone")
 
 hp = 100;
 hp_total = hp;

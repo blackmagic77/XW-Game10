@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_boss_spawner_2",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_princess",
+  "eventList":[],
   "managed":true,
-  "name":"obj_boss_spawner_2",
+  "name":"obj_princess",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_princess",
+    "path":"sprites/spr_princess/spr_princess.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

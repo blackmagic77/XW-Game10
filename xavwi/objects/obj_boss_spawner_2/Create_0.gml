@@ -1,0 +1,1 @@
+bossDead = false;

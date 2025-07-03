@@ -8,11 +8,12 @@ if (hp > hp_total)
     hp = hp_total;
 }
 
-if (lava_tunic = true)
-    if (water_boots == true){
-    move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap3], undefined, undefined, undefined, move_speed, move_speed);
+if (lava_tunic = true) {
+    move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap3,tilemap4,tilemap5,tilemap6], undefined, undefined, undefined, move_speed, move_speed);
+}else if (water_boots == true){
+    move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap3,tilemap4,tilemap5], undefined, undefined, undefined, move_speed, move_speed);
     } else {
-    	move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap2, tilemap3,tilemap4,tilemap5], undefined, undefined, undefined, move_speed, move_speed);
+    	move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap2, tilemap3,tilemap4,tilemap5,tilemap6], undefined, undefined, undefined, move_speed, move_speed);
     }
 
 
