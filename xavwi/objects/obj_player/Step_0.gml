@@ -9,7 +9,7 @@ if (hp > hp_total)
 }
 
 
-    if (water_boots == 1){
+    if (water_boots == true){
     move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap3], undefined, undefined, undefined, move_speed, move_speed);
     } else {
     	move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap2, tilemap3], undefined, undefined, undefined, move_speed, move_speed);

@@ -10,9 +10,9 @@ damage = 1;
 keys = 0;
 global.money = 100 ;
 global.inv = ds_list_create();
-water_boots = 0;
-sword2 = 0;
-bow = 0;
+water_boots = false;
+sword2 = false;
+bow = false;
 arrows = 0;
 potions = 0;
 
