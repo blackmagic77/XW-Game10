@@ -1,1 +1,1 @@
-sword2 = 1;
+sword2 = true;

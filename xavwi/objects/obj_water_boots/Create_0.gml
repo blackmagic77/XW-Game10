@@ -1,3 +1,3 @@
-if (obj_player.water_boots == 1) {
+if (obj_player.water_boots == true) {
     instance_destroy();
 }
