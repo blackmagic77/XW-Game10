@@ -1,1 +1,2 @@
-room_goto(Room2);
+x = 4903
+y = 370
