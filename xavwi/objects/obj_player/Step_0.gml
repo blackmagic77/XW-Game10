@@ -59,3 +59,7 @@ if ( potions >= 1 && keyboard_check_pressed(ord("E")))
     potions -= 1;
 }
 
+
+if (ds_list_find_value(global.inv, 1) == "bow") {
+     bow = true;
+}

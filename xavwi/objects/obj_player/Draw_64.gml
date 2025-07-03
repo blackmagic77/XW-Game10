@@ -1,7 +1,7 @@
 draw_sprite_ext(spr_arrow_pickup, 1, 18, 96, 5,5,0,c_white,1);
 draw_sprite_ext(spr_health_potion, 1, 18, 123, 5,5,0,c_white,1);
 
-draw_text(32,32,hp);
+draw_text(32,32,bow);
 draw_text(32,47, global.money);
 draw_text(32,62, facing);
 draw_text(32,82, water_boots);
