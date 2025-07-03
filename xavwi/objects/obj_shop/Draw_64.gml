@@ -13,7 +13,7 @@ for(var i=0; i<itemCount; i++){
     var item = aar[0];
     
     var _x = menuMargin + menuWidth/2;
-    var _y = (guiHeight/2) + (i-selected)*32;
+    var _y = (guiHeight/2) + (i-selectedAnim)*32;
     
     var s = 1;
     if (i==selected) s = 1.4;
@@ -58,3 +58,4 @@ draw_set_valign(fa_right);
 draw_text(guiWidth-4, guiHeight-4, "Hit ENTER to  buy");
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+
