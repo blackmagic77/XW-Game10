@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bow",
+  "%Name":"obj_healthpotion",
   "eventList":[],
   "managed":true,
-  "name":"obj_bow",
+  "name":"obj_healthpotion",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sItem_bow",
-    "path":"sprites/sItem_bow/sItem_bow.yy",
+    "name":"sItem_health_potion",
+    "path":"sprites/sItem_health_potion/sItem_health_potion.yy",
   },
   "spriteMaskId":null,
   "visible":true,
