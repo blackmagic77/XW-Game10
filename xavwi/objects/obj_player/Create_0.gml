@@ -3,6 +3,8 @@ move_speed = 1.5;
 tilemap = layer_tilemap_get_id("walls");
 tilemap2 = layer_tilemap_get_id("water");
 tilemap3 = layer_tilemap_get_id("lava");
+tilemap4 = layer_tilemap_get_id("dungeonwalls");
+tilemap5 = layer_tilemap_get_id("castlewalls");
 
 hp = 100;
 hp_total = hp;
