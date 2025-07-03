@@ -17,6 +17,7 @@ water_boots = false;
 sword2 = false;
 bow = false;
 arrows = 0;
+lava_tunic = false;
 potions = 0;
 
 roomx = 0;
