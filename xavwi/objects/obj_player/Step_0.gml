@@ -9,11 +9,11 @@ if (hp > hp_total)
 }
 
 if (lava_tunic = true) {
-    move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap3,tilemap4,tilemap5,tilemap6], undefined, undefined, undefined, move_speed, move_speed);
+    move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap,tilemap2, tilemap3,tilemap4,tilemap5,tilemap7], undefined, undefined, undefined, move_speed, move_speed);
 }else if (water_boots == true){
-    move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap3,tilemap4,tilemap5], undefined, undefined, undefined, move_speed, move_speed);
+    move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap3,tilemap4,tilemap5,tilemap7], undefined, undefined, undefined, move_speed, move_speed);
     } else {
-    	move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap2, tilemap3,tilemap4,tilemap5,tilemap6], undefined, undefined, undefined, move_speed, move_speed);
+    	move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, tilemap2, tilemap3,tilemap4,tilemap5,tilemap6,tilemap7], undefined, undefined, undefined, move_speed, move_speed);
     }
 
 
@@ -46,12 +46,13 @@ if (keyboard_check_pressed(vk_space) && alarm[10] < 0 && sword2 == false)
     _inst.damage *= damage;
     alarm[10] = 8;
 }
-if (bow = true && keyboard_check_pressed(ord("M"))) 
+if (alarm[10] < 0 && arrows >= 1 && bow = true && keyboard_check_pressed(ord("M"))) 
 {
     var _inst = instance_create_depth(x, y, depth, obj_arrow)
     _inst.image_angle = facing;
     _inst.direction = facing;
-    
+    arrows -= 1;
+    alarm[10] = 15;
 }
 
 if ( potions >= 1 && keyboard_check_pressed(ord("E")))

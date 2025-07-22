@@ -1,13 +1,12 @@
 draw_sprite_ext(spr_arrow_pickup, 1, 18, 96, 5,5,0,c_white,1);
-draw_sprite_ext(spr_health_potion, 1, 18, 123, 5,5,0,c_white,1);
+draw_sprite_ext(spr_health_potion, 1, 130, 96, 4, 4,0,c_white,1);
+draw_sprite_ext(spr_coin, 1, 250, 119, 8, 8,0,c_white,1);
 
-draw_text(32,32,obj_shop.selected);
-draw_text(32,47, global.money);
-draw_text(32,62, facing);
-draw_text(32,82, water_boots);
+draw_text(55,120, arrows);
+draw_text(167,120, potions);
+draw_text(280,120, global.money);
 
-
-var _dx = 50;
+var _dx =25;
 var _dy = 30;
 var _barw = 256;
 var _barh = 32;
@@ -21,4 +20,4 @@ var _health_barw = _barw * (hp / hp_total);
 draw_sprite_stretched(spr_box, 0 , _dx, _dy, _barw, _barh);
 draw_sprite_stretched_ext(spr_box, 1, _dx, _dy, _health_barw, _barh, c_red, 0.6);
  
-draw_text(_dx + _barw / 2, _dy + _barh / 2, "Health");
+draw_text(_dx + _barw / 2, _dy + _barh / 2, string(hp) + "/" + string(hp_total));

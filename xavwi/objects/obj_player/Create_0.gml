@@ -5,14 +5,15 @@ tilemap2 = layer_tilemap_get_id("water");
 tilemap3 = layer_tilemap_get_id("lava");
 tilemap4 = layer_tilemap_get_id("dungeonwalls");
 tilemap5 = layer_tilemap_get_id("castlewalls");
-tilemap6 = layer_tilemap_get_id("hotzone")
+tilemap6 = layer_tilemap_get_id("hotzone");
+tilemap7 = layer_tilemap_get_id("edge");
 
 hp = 100;
 hp_total = hp;
 damage = 1;
 keys = 0;
 bossKilled = 0;
-global.money = 100 ;
+global.money = 0;
 global.inv = ds_list_create();
 water_boots = false;
 sword2 = false;

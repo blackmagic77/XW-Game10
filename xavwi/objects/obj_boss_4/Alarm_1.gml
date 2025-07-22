@@ -1,6 +1,6 @@
 if (hp <= 0) 
 {
-    instance_create_layer(x, y, "Instances", obj_lava_tunic);
+    instance_create_layer(x, y, "Instances", obj_princess);
     obj_player.bossKilled += 1;
     for (var i = 0; i < 30; i++) {
     	

@@ -1,2 +1,2 @@
 bossDead = false;
-inside_room = false;
+inside_room_1 = 0;

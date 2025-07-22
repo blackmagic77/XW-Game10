@@ -14,8 +14,12 @@ if (shopOpen) {
         if (selected == itemCount) selected = 0;
     }
     if (keyboard_check_pressed(vk_up)) {
+        if (selected > 0) {
         selected--;
-        if (selected < 0) selected = itemCount;
+        } else {
+            selected = 2;
+        }
+        
     }
     var arr = items[| selected];
     var item = arr[0];

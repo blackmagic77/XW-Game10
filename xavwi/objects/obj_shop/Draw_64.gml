@@ -59,3 +59,10 @@ draw_text(guiWidth-4, guiHeight-4, "Hit ENTER to  buy");
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
+if (selected == 0) {
+    draw_sprite_ext(spr_bow, 1, 800, 300, 10,10,0,c_white,1);
+} else if (selected == 1) {
+    draw_sprite_ext(spr_arrow_pickup, 1, 800, 300, 15,15,0,c_white,1);
+} else if (selected == 2 ) {
+    draw_sprite_ext(spr_health_potion, 1, 830, 300, 11,11,0,c_white,1);
+}

@@ -1,6 +1,9 @@
 if (hp <= 0) 
 {
     instance_create_layer(x, y, "Instances", obj_sword2);
+    instance_create_layer(x, y - 30, "Instances", obj_exit_door_1);
+    instance_create_layer(x, y + 30, "Instances", obj_heart);
+    instance_create_layer(x, y + 30, "Instances", obj_key);
     obj_player.bossKilled += 1;
     for (var i = 0; i < 30; i++) {
     	

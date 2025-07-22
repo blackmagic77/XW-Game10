@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_exit_door_4",
-  "eventList":[],
+  "%Name":"obj_heart",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_exit_door_4",
+  "name":"obj_heart",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_exit_door",
-    "path":"sprites/spr_exit_door/spr_exit_door.yy",
+    "name":"spr_heart",
+    "path":"sprites/spr_heart/spr_heart.yy",
   },
   "spriteMaskId":null,
   "visible":true,
